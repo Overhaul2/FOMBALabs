@@ -1,0 +1,72 @@
+/* RENDRE RESPPONSIVE  */
+/* Styles pour les écrans plus petits que 600 pixels de large */
+@media screen and (max-width: 600px) {
+    /* Ajoutez ici vos styles spécifiques pour les petits écrans */
+  }
+  
+  /* Styles pour les écrans de 601 à 900 pixels de large */
+  @media screen and (min-width: 601px) and (max-width: 900px) {
+    /* Ajoutez ici vos styles spécifiques pour les écrans de taille moyenne */
+  }
+  
+  /* Styles pour les écrans plus grands que 900 pixels de large */
+  @media screen and (min-width: 901px) {
+    /* Ajoutez ici vos styles spécifiques pour les grands écrans */
+  }
+
+#map {
+    height: 400px; /* or any other size */
+    width: 100%;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+ /* FORMULAIRE D'INCRIPTION  */
+.container {
+    margin: 50px auto;
+    width: 400px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #333;
+}
+
+input[type=text], input[type=email], input[type=password], input[type=number] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    border: 2px solid rgb(143, 143, 90);
+}
+
+input[type=submit], input[type=reset] {
+    background-color: #3d62db;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover, input[type=reset]:hover {
+    background-color: #3335b4;
+}
+/* FIN DE LA PARTIE FORMULAIRE D'INSCRIPTION  */
