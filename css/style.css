@@ -69,4 +69,18 @@ input[type=submit], input[type=reset] {
 input[type=submit]:hover, input[type=reset]:hover {
     background-color: #3335b4;
 }
+a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #337ab7; /* Blue */
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    }
+    
+    /* Change the link color on hover */
+a:hover
+{
+    color: #ec0f0f;
+}
 /* FIN DE LA PARTIE FORMULAIRE D'INSCRIPTION  */
